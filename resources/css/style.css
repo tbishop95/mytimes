@@ -37,3 +37,33 @@ header nav {
 a {
   color: black;
 }
+
+body: {
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  padding-top: 120px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.large .column {
+  width: 630px;
+}
+
+.medium .column {
+  width: 300px;
+}
+
+.small .column {
+  width: 240px;
+}
+
+* {
+  border: 1px solid black;
+}
