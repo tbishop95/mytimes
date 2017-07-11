@@ -9,6 +9,7 @@ header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  background-color: white;
 }
 
 .logo {
@@ -45,11 +46,14 @@ body: {
 .content {
   display: flex;
   padding-top: 120px;
+  width: 1250px;
+  margin: 0px auto 80px auto;
 }
 
 .column {
   display: flex;
   flex-direction: column;
+  margin-right: 35px;
 }
 
 .large .column {
@@ -64,6 +68,48 @@ body: {
   width: 240px;
 }
 
-* {
+div {
   border: 1px solid black;
+}
+
+.headline {
+  background-image: url(/Users/thomasbishop/Documents/Projects/mytimes/resources/images/img-story-main.png);
+  color: white;
+  height: 250px;
+  font-size: 40px;
+}
+
+.cats {
+  background-image: url(/Users/thomasbishop/Documents/Projects/mytimes/resources/images/img-story-1.png);
+  height: 300px;
+  width: 300px;
+  color: white;
+  text-align: center;
+}
+
+.earth {
+  background-image: url(/Users/thomasbishop/Documents/Projects/mytimes/resources/images/img-story-2.png);
+  color: white;
+  height: 300px;
+  text-align: center;
+}
+
+.research {
+  background-image: url(/Users/thomasbishop/Documents/Projects/mytimes/resources/images/img-story-3.png);
+  color: white;
+  height: 300px;
+  text-align: center;
+}
+
+.paragraph {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.imgtxt {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
